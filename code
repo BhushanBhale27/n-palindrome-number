@@ -1,0 +1,17 @@
+function palindrom(n){
+  let rev
+  let arr=[]
+  for(let i=0;i<n;i++){
+    i_org=i;
+   i = i + "";
+  rev =  i.split("").reverse().join("");
+  if(i_org==rev){
+    arr.push(i_org);
+  }
+  
+  }
+  console.log(arr);
+  
+  
+};
+palindrom(100);
